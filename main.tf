@@ -33,3 +33,13 @@ module "storage" {
 #         }
 #         ]
 # }
+
+# resource "google_compute_firewall" "tf-firewall" {
+#   name    = "tf-firewall"
+#   network = "terraform-vpc"
+
+#   allow {
+#     protocol = "tcp"
+#     ports    = ["80"]
+#   }
+# }

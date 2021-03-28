@@ -1,7 +1,7 @@
 provider "google" {
     version = "3.5.0"
 
-  project = "qwiklabs-gcp-00-99e3cfd38f35"
+  project = "<project-id>"
   region  = "us-central1"
   zone    = "us-central1-a"
 }
@@ -22,7 +22,7 @@ resource "google_compute_instance" "tf-instance-1" {
     metadata                = {}
 
     name                    = "tf-instance-1"
-    project                 = "qwiklabs-gcp-00-99e3cfd38f35"
+    project                 = "<project-id>"
  
     tags                    = []
 
@@ -82,7 +82,7 @@ resource "google_compute_instance" "tf-instance-2" {
     metadata                = {}
 
     name                    = "tf-instance-2"
-    project                 = "qwiklabs-gcp-00-99e3cfd38f35"
+    project                 = "<project-id>"
  
     tags                    = []
 
